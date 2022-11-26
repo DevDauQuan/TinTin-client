@@ -1,0 +1,47 @@
+.spam {
+    width: 100%;
+    background: white;
+    max-width: 800px;
+    height: 78vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.admin_content_display {
+    width: 100%;
+    display: flex;
+    background: #eff0f4;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.spam .spam_report {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: auto 9px;
+}
+
+.spam .spam_time {
+    font-size: 1rem;
+    margin-left: 10px
+}
+
+.spam .spam_username,
+.spam .spam_email {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.spam_link {
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 100%;
+    font-size: 1.2rem;
+    color: blue;
+}
